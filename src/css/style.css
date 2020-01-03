@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	text-align: center;
+	font-family: 'Josefin Sans' !important;
+}
+h1{
+	font-size: 28px !important;
+}
+button{
+	outline: none !important;
+}
+.font-bold{
+	font-weight: bold;
+}
+.wrapper{
+	margin: 0 auto;
+	display: inline-block;
+	overflow: auto;
+	text-align: center;
+    border: 1px solid #ccc;
+    background-color: #eaf4f9;
+    margin: 50px 0;
+    box-shadow: 2px 2px 5px #888888;
+}
+.contact-container-header, .contact-info-header{
+	text-align: center;
+	padding: 10px;
+	font-family: segoe ui;
+}
+.contact-info-header{
+	box-sizing: border-box;
+    background-color: #000;
+    color: #c4ced2;
+}
+.contact-container{
+	width: 400px;
+	min-height: 300px;
+	float: left;
+	margin: 0 auto;
+	background-color: #f5f5f5;
+	border-right: 1px solid #ccc;
+	border-radius: 4px;
+}
+.contact-container-header{
+	background-color: #016a98;
+	color: #fff;
+	margin: 0;
+}
+.contact{
+	position: relative;
+    padding: 12px 25px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cabin;
+	margin: 0;
+    cursor: pointer;
+    background-color: #fff;
+	color: #545454;
+	word-wrap: break-word;
+}
+.contact:hover{
+    background-color: #f3f7f9;
+}
+.contact:hover span.delete, .contact:hover span.edit{
+	display: inline-block;
+}
+.contact.active{
+	margin-right: -1px;
+    background-color: #eaf4f9;
+    color: #016a98;
+}
+.contact-info-container{
+	width: 300px;
+    min-height: 300px;
+    float: left;
+    background-color: #eaf4f9;
+}
+span.delete, span.edit{
+	display: none;
+    position: absolute;
+    font-size: 10px;
+    color: #989898;
+    right: 12px;
+    top: 16px;
+    width: 22px;
+    height: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    padding: 5px 2px 2px 2px;
+}
+span.edit{
+    right: 35px;
+    top: 16px;
+    width: 22px;
+    height: 22px;
+    padding: 4px 2px 2px 2px;
+
+}
+.delete:hover, span.edit:hover{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 2px solid #8ebed4;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	transition: 0.2s;
+}
+.name{
+	text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Reem Kufi;
+    color: #007e8c;
+	word-wrap: break-word;
+    margin: 20px 0 28px 0;
+}
+span.mandatory{
+	color: red;
+}
+.mobile > label, .address > label, .email > label {
+	font-weight: bold;
+	font-family: Josefin Sans !important;
+	color: #545454;
+}
+.mobile, .address, .email{
+	font-family: Inconsolata;
+	margin: 20px 15px;
+	font-size: 18px;
+	word-wrap: break-word;
+}
+.contacts-wrapper{
+	padding: 40px 0;
+	min-height: 346px;
+	max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+}
+.contacts-wrapper > div:first-child{
+	border-top: 1px solid #ccc;
+}
+.contacts-wrapper > div:last-child{
+	border-bottom: 0;
+}
+.contacts-wrapper p{
+	font-family: Cabin;
+}
+.contact-container-footer {
+    padding: 0 0 25px 0;
+}
+.contact-info{
+	margin-top: 50px;
+}
+.contact-info-container.new-contact div:first-child{
+	margin-top: 30px; 
+}
+.contact-info-container.new-contact label{
+	display: block;
+    margin: 0;
+    padding: 11px 17px 2px 0;
+    color: #01626d;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 54px;
+}
+
+.contact-info-container input{
+	background-color: #f5f5f5;
+	border-radius: 4px;
+	height: 35px;
+	width: 200px;
+    margin: 0 auto;
+}
+.btn-container{
+	margin-top: 20px;
+}
+.btn-container button{
+	font-weight: bold;
+	font-family: segoe ui;
+	border-color: #068e06;
+	width: 52px;
+	height: 50px;
+	margin-top: 20px;
+	border-radius: 80px;
+}
+.contact-container-footer button{
+	font-weight: bold;
+	font-family: segoe ui;		
+	border-radius: 30px;
+    font-size: 19px;
+	min-width: 50px;
+	min-height: 50px;
+}
+.btn-container button, .contact-container-footer button{
+	outline: none;
+}
+.no-info{
+	margin-top: 55px;
+	font-family: segoe ui;	
+}
+.alert{
+	display: none;
+	font-family: Nunito;	
+	position: fixed;
+	top: 10px;
+	left: 45%;
+	z-index: 100;
+}
+.save-btn{
+	padding: 0px;
+}

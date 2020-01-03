@@ -1,0 +1,37 @@
+[
+	{
+		"name": "Vetrivel M",
+		"address": "South Street",
+		"mobile": "6666675363",
+		"email": "vetri@gmail.com",
+		"selected":true
+	},
+	{
+		"name": "Guna",
+		"address": "Main street",
+		"mobile": "6666666667",
+		"email": "guna@gmail.com",
+		"selected":false
+	},
+	{
+		"name": "Rekha",
+		"address": "North street",
+		"mobile": "6666666668",
+		"email": "rekha@gmail.com",
+		"selected":false
+	},
+	{
+		"name": "Sri",
+		"address": "West street",
+		"mobile": "6666666669",
+		"email": "sri@hotmail.com",
+		"selected":false
+	},
+	{
+		"name": "Vinith",
+		"address": "Wolf of wall street",
+		"mobile": "6666666670",
+		"email": "vinith@gmail.com",
+		"selected":false
+	}
+]
